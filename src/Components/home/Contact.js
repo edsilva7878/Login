@@ -59,7 +59,7 @@ export default function Contact() {
             <div className='footer1-C'>
                 <div className='icones'>
                     <img src={Email}/>
-                    <h3>edsilva7878@gmail.com</h3>
+                    <h3>edsilva7878</h3>
                 </div>
                 <div className='icones'>
                     <img src={Linkedin}/>

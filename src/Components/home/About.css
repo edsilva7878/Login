@@ -8,6 +8,8 @@ padding: 0;
     border-radius: 0;
     position: fixed;
     z-index: 0;
+    width: 100vw;
+    height: 100vh;
 }
 .wrapper-A{
 position: relative;

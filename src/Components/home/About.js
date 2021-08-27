@@ -2,6 +2,7 @@ import React from 'react'
 import {useHistory} from 'react-router-dom'
 import '../home/About.css'
 import Book from '../home/images/book.png'
+import FundoAbout from './images/about.jpg'
 
 export default function About() {
     const history = useHistory()
@@ -23,7 +24,11 @@ export default function About() {
     }
     
     return (
-        <div className='wrapper-A'>
+
+        <>
+        <img src={FundoAbout} className='fabout' alt='fabout'/>
+        <div className='wrapper-A' >
+            
             <div className='menu-A'>
                 <button className='btn-XA'>SOBRE</button>
                 <button className='btn-A' onClick={() => skills()}>CONHECIMENTOS</button>
@@ -47,5 +52,6 @@ export default function About() {
                 <h3>Eduardo Silva</h3>
             </div>
         </div>
+        </>
     )
 }

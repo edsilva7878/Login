@@ -1,9 +1,17 @@
 *{
-margin: 0vh;
-padding: 0vh;
+margin: 0;
+padding: 0;
+}
+.fabout{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    position: fixed;
+    z-index: 0;
 }
 .wrapper-A{
-background-image: url('./images/about.jpg');
+position: relative;
+z-index: 1;
 }
 .menu-A{
 background-color: transparent;

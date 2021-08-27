@@ -5,6 +5,7 @@ import HTML from './images/html.png'
 import CSS from './images/css.png'
 import JS from './images/js.png'
 import Frame from './images/frame.png'
+import FundoSkills from './images/skills.jpg'
 
 export default function Skills() {
     const history = useHistory()
@@ -30,7 +31,10 @@ export default function Skills() {
     }
     
     return (
+        <>
+        <img src={FundoSkills} className='fskills' alt='fskills'/>
         <div className='wrapper-S'>
+            
             <div className='menu-S'>
                 <button className='btn-XS' onClick={() => skills()}>CONHECIMENTOS</button>
                 <button className='btn-S' onClick={() => contact()}>CONTATO</button>
@@ -72,5 +76,6 @@ export default function Skills() {
                 <h3>Eduardo Silva {' '}</h3>
             </div>
         </div>
+        </>
     )
 }

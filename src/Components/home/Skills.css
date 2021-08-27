@@ -1,9 +1,15 @@
-*{
-margin: 0vh;
-padding: 0vh;
+.fskills{
+position: fixed;
+z-index: 0;
+width: 100vw;
+height: 100vh;
+margin: 0;
+padding: 0;
+border-radius: 0;
 }
 .wrapper-S{
-background-image: url('./images/skills.jpg');
+position: relative;
+z-index: 1;
 }
 .menu-S{
 background-color: transparent;

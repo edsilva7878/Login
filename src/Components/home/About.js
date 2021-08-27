@@ -28,7 +28,6 @@ export default function About() {
         <>
         <img src={FundoAbout} className='fabout' alt='fabout'/>
         <div className='wrapper-A' >
-            
             <div className='menu-A'>
                 <button className='btn-XA'>SOBRE</button>
                 <button className='btn-A' onClick={() => skills()}>CONHECIMENTOS</button>

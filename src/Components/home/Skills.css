@@ -1,0 +1,89 @@
+*{
+margin: 0vh;
+padding: 0vh;
+}
+.wrapper-S{
+background-image: url('./images/skills.jpg');
+}
+.menu-S{
+background-color: transparent;
+height: 20vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-size: 70pt;
+font-family: Perpetua Titling MT;
+color: white;
+}
+.btn-S{
+width: 30vh;
+height: 10vh;
+border: solid;
+border-width: 0.3vh;
+border-color: white;
+background-color:transparent;
+color: white;
+font-size: 15pt;
+font-family: Perpetua Titling MT;
+}
+.btn-S:hover{
+background-color: rgba(255, 255, 255, 0.459);
+border-color: transparent;
+color: white;
+}
+.btn-XS{
+width: 70vh;
+height: 20vh;
+background-color: transparent;
+border-color: transparent;
+color: white;
+font-size: 45pt;
+font-family: Perpetua Titling MT;
+}
+.content-S{
+background-color:  transparent;
+height: 75vh;
+font-size: 10pt;
+color:BLACK;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.card1-S{
+transition: all 1s;
+background-color: WHITE;
+width: 25vh;
+height: 35vh;
+font-family: Agency FB;
+font-size: 3pt;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2vh;
+text-align: justify;
+margin: 2vh;
+border-radius: 5px;
+box-shadow: 1px 1px 10px black;
+}
+.card1-S:hover{
+transition: all 1s;
+width: 45vh;
+height: 60vh;
+font-family: Agency FB;
+font-size: 6pt;
+box-shadow: 1px 1px 10px black;
+}
+.footer-S{
+background-color:transparent;
+height: 5vh;
+font-size: 20pt;
+font-family: Mistral;
+color:rgb(255, 255, 255);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-right: 2vh;
+}
+
+  

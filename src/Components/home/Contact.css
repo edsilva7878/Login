@@ -1,0 +1,162 @@
+    *{
+    margin: 0vh;
+    padding: 0vh;
+    }
+    .wrapper-C{
+    background-image: url('./images/contact.jpg');
+    }
+    .menu-C{
+    background-color: transparent;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 70pt;
+    font-family: Perpetua Titling MT;
+    color: white;
+    }
+    .btn-C{
+    width: 30vh;
+    height: 10vh;
+    border: solid;
+    border-width: 0.3vh;
+    border-color: white;
+    background-color:transparent;
+    color: white;
+    font-size: 15pt;
+    font-family: Perpetua Titling MT;
+    }
+    .btn-XC{
+    width: 70vh;
+    height: 20vh;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 50pt;
+    font-family: Perpetua Titling MT;
+    }
+    .btn-C:hover{
+    background-color:rgba(255, 255, 255, 0.288);
+    border-color: transparent;
+    color: white;
+    }
+    .content-C{
+    height: 65vh;
+    width: 100%;
+    font-size: 10pt;
+    color:BLACK;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+    }
+    .form{
+    height: 60vh;
+    width: 50vh;
+    font-size: 15pt;
+    font-family: Perpetua Titling MT;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background: transparent;
+    text-align: center;
+    margin-left: 11.5Vh;
+    box-shadow: 1px 1px 10px BLACK;
+    }
+    .name{
+    background-color:  rgba(255, 255, 255, 0.315);
+    height: 3vh;
+    width: 35vh;
+    color: rgba(0, 0, 0, 0.808);
+    margin: 1VH;
+    font-family: Agency FB;
+    font-size: 15pt;
+    text-align: center;
+    outline: none;
+    border-color: white;
+    border-width: 0.1vh;
+    }
+    .email{
+    background-color:  rgba(255, 255, 255, 0.315);
+    height: 3vh;
+    width: 35vh;
+    color: rgba(0, 0, 0, 0.808);
+    margin: 1VH;
+    font-family: Agency FB;
+    font-size: 15pt;
+    text-align: center;
+    outline: none;
+    border-color: white;
+    border-width: 0.1vh;
+    }
+    .text{
+    background-color:  rgba(255, 255, 255, 0.315);
+    height: 10vh;
+    width: 35vh;
+    color: rgba(0, 0, 0, 0.808);
+    margin: 1VH;
+    font-family: Agency FB;
+    font-size: 15pt;
+    text-align: left;
+    padding: 1vh;
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.274);
+    border-width: 0.1vh;
+    }
+    .btnSubmit{
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    color: white;
+    margin: 1VH;
+    font-family:Perpetua Titling MT;
+    font-size: 12pt;
+    text-align: center;
+    outline: none;
+    border-color: white;
+    border-width: 0.3vh;
+    box-shadow: 1px 1px 10px black;
+    }
+    .btnSubmit:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    border-color: transparent;
+    }
+     img{
+    padding: 1vh;
+    }
+    .icones{
+    background-color: rgba(255, 255, 255, 0.267);
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    }
+    .footer1-C{
+    background-color:transparent;
+    height: 10vh;
+    font-size: 20pt;
+    font-family: Garamond;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2vh;
+    }
+    .footer2-C{
+        background-color:transparent;
+        height: 5vh;
+        font-size: 20pt;
+        font-family: Mistral;
+        color:rgb(255, 255, 255);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 2vh;
+        }
+    

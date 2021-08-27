@@ -1,0 +1,104 @@
+*{
+margin: 0vh;
+padding: 0vh;
+}
+*{
+text-decoration: none;
+}
+.wrapper-P{
+background-image: url('./images/partners.png');
+}
+.menu-P{
+background-color: transparent;
+height: 20vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-size: 70pt;
+font-family: Perpetua Titling MT;
+color: white;
+}
+.btn-P{
+width: 30vh;
+height: 10vh;
+border: solid;
+border-width: 0.3vh;
+border-color: white;
+background-color:transparent;
+color: white;
+font-size: 15pt;
+font-family: Perpetua Titling MT;
+}
+.btn-P:hover{
+background-color: rgba(255, 255, 255, 0.473);
+border-color: transparent;
+color: white;
+}
+.btn-XP{
+width: 70vh;
+height: 20vh;
+background-color: transparent;
+border-color: transparent;
+color: rgb(255, 255, 255);
+font-size: 50pt;
+font-family: Perpetua Titling MT;
+}
+.content-P{
+background-color:  transparent;
+height: 75vh;
+font-size: 10pt;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.cardP{
+transition: all 2s;
+width: 20vh;
+height: 20vh;
+background-color: transparent;
+font-family: PMingLiU-ExtB;
+font-size: 4pt;
+color: black;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 2vh;
+box-shadow: 1px 1px 10px black;
+text-align: center;
+}
+.cardP:hover{
+transition: all 2s;
+width: 60vh;
+height: 60vh;
+background-color: transparent;
+font-family: PMingLiU-ExtB;
+font-size: 8pt;
+color: black;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 2vh;
+box-shadow: 1px 1px 10px black;
+}
+.titleP{
+background-color: rgba(255, 255, 255, 0.486);
+color: black;
+height: 5vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+.footer-P{
+background-color:transparent;
+height: 5vh;
+font-size: 20pt;
+font-family: Mistral;
+color:rgb(255, 255, 255);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-right: 2vh;
+}

@@ -1,18 +1,12 @@
-import Login from "./Components/Login";
+import Web from "./Components/home/Web"
+import Direito from './Components/ailson/Direito'
 
-
-function App() {
+export default function App() {
   return (
+
     <div className="App">
-      <Login 
-      phLogin={'USERNAME'}
-      phPassword={'PASSWORD'}
-      typePassword={'password'}
-      nameOfButton={'ENTER'}
-      />
-      
+      <Web/>
+      <Direito/>
     </div>
   );
 }
-
-export default App;

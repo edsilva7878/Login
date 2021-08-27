@@ -33,7 +33,7 @@ export default function About() {
             </div>
             <div className='content-A'>
                 <div className='card-A'>
-                    <img src={Book}/><br/>
+                    <img src={Book} alt='photo1'/><br/>
                     <h1>Paulistano, casado, 43 anos...
                     Pai de 03 filhos e apaixonado pela família,
                     música e tecnologia... Estudante de Porgramação, 

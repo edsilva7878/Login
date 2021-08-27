@@ -40,13 +40,13 @@ export default function Skills() {
             </div>
             <div className='content-S'>
                 <div className='card1-S'>
-                    <img src={HTML} className='image'/>
+                    <img src={HTML} className='image' alt='html'/>
                     <h1>HTML significa Hypertext Markup Language. 
                     Ele permite a criação de estruturas, parágrafos, 
                     cabeçalhos e links para páginas da internet ou aplicações.</h1>
                 </div>
-                <div className='card1-S'>
-                    <img src={CSS} className='image'/>
+                <div className='card1-S' >
+                    <img src={CSS} className='image' alt='html'/>
                     <h1>O Cascading Style Sheets (CSS) é uma "folha de estilo" 
                     composta por “camadas” e utilizada para definir a 
                     aparência em páginas da internet que adotam para o 
@@ -54,14 +54,14 @@ export default function Skills() {
                     (como XML, HTML e XHTML).</h1>
                 </div>
                 <div className='card1-S'>
-                    <img src={JS} className='image'/>
+                    <img src={JS} className='image' alt='html'/>
                     <h1>O JavaScript (JS) é uma linguagem de programação utilizada 
                     principalmente em páginas web. Mostrar mensagens e informações, 
                     fazer verificações ou mudar dinamicamente sua apresentação, 
                     conforme a necessidade que sua página (ou aplicação) possua.</h1>
                 </div>
                 <div className='card1-S'>
-                    <img src={Frame} className='image'/>
+                    <img src={Frame} className='image' alt='html'/>
                     <h1>React. js é uma biblioteca JavaScript open source, utilizada
                     para construção de interfaces, nomeadas para aplicações de 
                     página única. Rápida, escalável e simples, pode ser usada com 

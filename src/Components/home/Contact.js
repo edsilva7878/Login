@@ -58,23 +58,23 @@ export default function Contact() {
             </div>
             <div className='footer1-C'>
                 <div className='icones'>
-                    <img src={Email}/>
-                    <h3>edsilva7878</h3>
+                    <img src={Email} alt='photo1'/>
+                    <h3>edsilva7878@gmail.com</h3>
                 </div>
                 <div className='icones'>
-                    <img src={Linkedin}/>
+                    <img src={Linkedin} alt='photo2'/>
                     <h3>in/edsilva7878</h3>
                 </div>
-                <div className='icones'>
-                    <img src={Whats}/>
+                <div className='icones' >
+                    <img src={Whats} alt='photo3'/>
                     <h3>55 (11) 99250-6743</h3>
                 </div>
-                <div className='icones'>
-                    <img src={Fone}/>
+                <div className='icones' >
+                    <img src={Fone} alt='photo4'/>
                     <h3>55 (11) 2935-3972</h3>
                 </div>
             </div>
-            <div className='footer2-C'>
+            <div className='footer2-C' >
                 <h3>Eduardo Silva {' '}</h3>
             </div>
         </div>

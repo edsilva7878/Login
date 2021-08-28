@@ -29,10 +29,11 @@ export default function About() {
             <div className='wrapperAbout' >
             <div className='menuAbout'>
                 <p className='titleAbout'>SOBRE</p>
-                <button className='btnAbout' onClick={() => home()}>PAGINA INICIAL</button>
                 <button className='btnAbout' onClick={() => skills()}>CONHECIMENTOS</button>
                 <button className='btnAbout' onClick={() => contact()}>CONTATO</button>
                 <button className='btnAbout' onClick={() => partners()}>PARCEIROS</button>
+                <button className='btnAbout' onClick={() => home()}>PAGINA INICIAL</button>
+
             </div>
             <div className='contentAbout'>
                 <div className='cardAbout'>

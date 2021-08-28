@@ -32,10 +32,10 @@ export default function Skills() {
         <div className='wrapperSkills'>
             <div className='menuSkills'>
                 <p className='titleSkills'>CONHECIMENTOS</p>
-                <button className='btnSkills' onClick={() => home()}>PAGINA INICIAL</button>
-                <button className='btnSkills' onClick={() => about()}>SOBRE</button>
                 <button className='btnSkills' onClick={() => contact()}>CONTATO</button>
                 <button className='btnSkills' onClick={() => partners()}>PARCEIROS</button>
+                <button className='btnSkills' onClick={() => home()}>PAGINA INICIAL</button>
+                <button className='btnSkills' onClick={() => about()}>SOBRE</button>
             </div>
             <div className='contentSkills'>
                 <div className='cardSkills'>

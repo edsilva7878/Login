@@ -1,13 +1,15 @@
 .fundoHome{
-    position: fixed;
-    z-index: 0;
     margin: 0;
     padding: 0;
-    border-radius: 0px;
+    border-radius: 0;
+    position: fixed;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
 }
 .wrapperHome{
-    position: relative;
-    z-index: 1;
+position: relative;
+z-index: 1;
 }
 .menuHome{
 height: 20vh;

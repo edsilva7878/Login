@@ -54,7 +54,7 @@ align-items: center;
     align-items: center;
     }
 .cardSkills{
-transition: all 1s;
+transition: all 0.5s;
 background-color: WHITE;
 width: 10vw;
 height: 30vh;
@@ -69,9 +69,9 @@ padding: 3vh;
 box-shadow: 0px 0px 10px 1px #000000;
 }
 .cardSkills:hover{
-transition: all 1s;
-width: 20vw;
-height: 40vh ;
+transition: all 0.5s;
+width: 40vw;
+height: 60vh ;
 font-family: Agency FB;
 font-size: 5pt;
 box-shadow: 1px 1px 10px black;

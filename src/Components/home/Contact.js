@@ -34,10 +34,11 @@ export default function Contact() {
             <div className='wrapper-C'>
             <div className='menu-C'>
                 <p className='titleContact'>CONTATO</p>
-                <button className='btnContact' onClick={() => partners()}>PARCEIROS</button>
-                <button className='btnContact' onClick={() => home()}>PAGINA INICIAL</button>
                 <button className='btnContact' onClick={() => about()}>SOBRE</button>
                 <button className='btnContact' onClick={() => skills()}>CONHECIMENTOS</button>
+                <button className='btnContact' onClick={() => partners()}>PARCEIROS</button>
+                <button className='btnContact' onClick={() => home()}>PAGINA INICIAL</button>
+
             </div>
             <div className='content-C'>
                 <form className="form">

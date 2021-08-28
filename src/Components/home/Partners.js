@@ -5,7 +5,7 @@ import Danilo from './images/danilo.png'
 import Jaine from './images/jaine.png'
 import Tenorio from './images/tenorio.png'
 import Ale from './images/ale.png'
-import Fpartners from './images/partners.png'
+import FundoPartners from './images/partners.png'
 export default function Partners() {
 
     const history = useHistory()
@@ -28,8 +28,8 @@ export default function Partners() {
     
     return (
         <>
-            <img src={Fpartners} className='fpartners' alt='fpartners' />
-            <div className='wrapper-P'>
+            <img src={FundoPartners} className='fpartners' alt='fpartners' />
+            <div className='wrapperPartners'>
             <div className='menu-P'>
                 <p className='titlePartners'>PARCEIROS</p>
                 <button className='btn-P' onClick={() => home()}>PAGINA INICIAL</button>

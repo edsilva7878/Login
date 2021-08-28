@@ -28,7 +28,7 @@ export default function Partners() {
     
     return (
         <>
-            <img src={FundoPartners} className='fpartners' alt='fpartners' />
+            <img src={FundoPartners} className='fundoPartners' alt='fpartners' />
             <div className='wrapperPartners'>
             <div className='menu-P'>
                 <p className='titlePartners'>PARCEIROS</p>

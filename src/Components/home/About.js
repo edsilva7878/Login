@@ -24,20 +24,19 @@ export default function About() {
     }
     
     return (
-
         <>
-        <img src={FundoAbout} className='fabout' alt='fabout'/>
-        <div className='wrapper-A' >
-            <div className='menu-A'>
-                <button className='btn-XA'>SOBRE</button>
-                <button className='btn-A' onClick={() => skills()}>CONHECIMENTOS</button>
-                <button className='btn-A' onClick={() => contact()}>CONTATO</button>
-                <button className='btn-H' onClick={() => partners()}>PARCEIROS</button>
-                <button className='btn-A' onClick={() => home()}>PAGINA INICIAL</button>
+            <img src={FundoAbout} className='fundoAbout' alt='photoAbout'/>
+            <div className='wrapperAbout' >
+            <div className='menuAbout'>
+                <p className='titleAbout'>SOBRE</p>
+                <button className='btnAbout' onClick={() => skills()}>CONHECIMENTOS</button>
+                <button className='btnAbout' onClick={() => contact()}>CONTATO</button>
+                <button className='btnAbout' onClick={() => partners()}>PARCEIROS</button>
+                <button className='btnAbout' onClick={() => home()}>PAGINA INICIAL</button>
             </div>
-            <div className='content-A'>
-                <div className='card-A'>
-                    <img src={Book} alt='photo1'/><br/>
+            <div className='contentAbout'>
+                <div className='cardAbout'>
+                    <img src={Book} alt='photoBook'/><br/>
                     <h1>Paulistano, casado, 43 anos...
                     Pai de 03 filhos e apaixonado pela família,
                     música e tecnologia... Estudante de Porgramação, 
@@ -47,7 +46,7 @@ export default function About() {
                     oportunidade na área, como Desenvolvedor de Sistemas.</h1>
                 </div>
             </div>
-            <div className='footer-A'>
+            <div className='footerAbout'>
                 <h3>Eduardo Silva</h3>
             </div>
         </div>

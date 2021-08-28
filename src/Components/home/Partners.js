@@ -5,6 +5,7 @@ import Danilo from './images/danilo.png'
 import Jaine from './images/jaine.png'
 import Tenorio from './images/tenorio.png'
 import Ale from './images/ale.png'
+import Fpartners from './images/partners.png'
 export default function Partners() {
 
     const history = useHistory()
@@ -24,14 +25,13 @@ export default function Partners() {
     function home(){
         return history.push('/')
     }
-    function partners(){
-        return history.push('/partners')
-    }
     
     return (
-        <div className='wrapper-P'>
+        <>
+            <img src={Fpartners} className='fpartners' alt='fpartners' />
+            <div className='wrapper-P'>
             <div className='menu-P'>
-                <button className='btn-XP' onClick={() => partners()}>PARCEIROS</button>
+                <p className='titlePartners'>PARCEIROS</p>
                 <button className='btn-P' onClick={() => home()}>PAGINA INICIAL</button>
                 <button className='btn-P' onClick={() => about()}>SOBRE</button>
                 <button className='btn-P' onClick={() => skills()}>CONHECIMENTOS</button>
@@ -61,6 +61,7 @@ export default function Partners() {
             <div className='footer-P'>
                 <h3>Eduardo Silva</h3>
             </div>
-        </div>
+            </div>
+        </>
     )
 }

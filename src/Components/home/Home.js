@@ -1,6 +1,7 @@
 import React from 'react'
 import {useHistory} from 'react-router-dom'
 import '../home/Home.css'
+import FundoHome from './images/edu.png'
 
 export default function Home() {
     const history = useHistory()
@@ -16,29 +17,29 @@ export default function Home() {
     function contact(){
         return history.push('/contact')
     }
-    
-    function home(){
-        return history.push('/')
-    }
+
     function partners(){
         return history.push('/partners')
     }
     
     return (
-        <div className='wrapper-H'>
-            <div className='menu-H'>
-                <button className='btn-XH' onClick={() => home()}>PAGINA INICIAL</button>
-                <button className='btn-H' onClick={() => about()}>SOBRE</button>
-                <button className='btn-H' onClick={() => skills()}>CONHECIMENTOS</button>
-                <button className='btn-H' onClick={() => contact()}>CONTATO</button>
-                <button className='btn-H' onClick={() => partners()}>PARCEIROS</button>
+        <>
+            <img src={FundoHome} className='fundoHome' alt='photoHome'/>
+            <div className='wrapperHome'>
+            <div className='menuHome'>
+                <p className='titleHome'>PAGINA INICIAL</p>
+                <button className='btnHome' onClick={() => about()}>SOBRE</button>
+                <button className='btnHome' onClick={() => skills()}>CONHECIMENTOS</button>
+                <button className='btnHome' onClick={() => contact()}>CONTATO</button>
+                <button className='btnHome' onClick={() => partners()}>PARCEIROS</button>
             </div>
-            <div className='content-H'>
-                <h1 className='title'>DEVELOPER</h1>
+            <div className='contentHome'>
+                <h1 className='marcaHome'>DEVELOPER</h1>
             </div>
-            <div className='footer-H'>
+            <div className='footerHome'>
                 <h3>Eduardo Silva</h3>
             </div>
-        </div>
+            </div>
+        </>
     )
 }

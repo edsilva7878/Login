@@ -14,10 +14,6 @@ export default function Skills() {
         return history.push('/')
     }
 
-    function skills(){
-        return history.push('/skills')
-    }
-
     function contact(){
         return history.push('/contact')
     }
@@ -32,47 +28,41 @@ export default function Skills() {
     
     return (
         <>
-        <img src={FundoSkills} className='fskills' alt='fskills'/>
-        <div className='wrapper-S'>
-            
-            <div className='menu-S'>
-                <button className='btn-XS' onClick={() => skills()}>CONHECIMENTOS</button>
-                <button className='btn-S' onClick={() => contact()}>CONTATO</button>
-                <button className='btn-S' onClick={() => partners()}>PARCEIROS</button>
-                <button className='btn-S' onClick={() => home()}>PAGINA INICIAL</button>
-                <button className='btn-S' onClick={() => about()}>SOBRE</button>
+        <img src={FundoSkills} className='fundoSkills' alt='photoSkills'/>
+        <div className='wrapperSkills'>
+            <div className='menuSkills'>
+                <p className='titleSkills'>CONHECIMENTOS</p>
+                <button className='btnSkills' onClick={() => contact()}>CONTATO</button>
+                <button className='btnSkills' onClick={() => partners()}>PARCEIROS</button>
+                <button className='btnSkills' onClick={() => home()}>PAGINA INICIAL</button>
+                <button className='btnSkills' onClick={() => about()}>SOBRE</button>
             </div>
-            <div className='content-S'>
-                <div className='card1-S'>
+            <div className='contentSkills'>
+                <div className='cardSkills'>
                     <img src={HTML} className='image' alt='html'/>
-                    <h1>HTML significa Hypertext Markup Language. 
-                    Ele permite a criação de estruturas, parágrafos, 
+                    <h1>HTML - Hypertext Markup Language. 
+                    Permite a criação de estruturas, parágrafos, 
                     cabeçalhos e links para páginas da internet ou aplicações.</h1>
                 </div>
-                <div className='card1-S' >
+                <div className='cardSkills' >
                     <img src={CSS} className='image' alt='html'/>
-                    <h1>O Cascading Style Sheets (CSS) é uma "folha de estilo" 
+                    <h1>Cascading Style Sheets (CSS) - é uma "folha de estilo" 
                     composta por “camadas” e utilizada para definir a 
-                    aparência em páginas da internet que adotam para o 
-                    seu desenvolvimento, linguagens de marcação 
-                    (como XML, HTML e XHTML).</h1>
+                    aparência em páginas da internet.</h1>
                 </div>
-                <div className='card1-S'>
+                <div className='cardSkills'>
                     <img src={JS} className='image' alt='html'/>
-                    <h1>O JavaScript (JS) é uma linguagem de programação utilizada 
-                    principalmente em páginas web. Mostrar mensagens e informações, 
-                    fazer verificações ou mudar dinamicamente sua apresentação, 
-                    conforme a necessidade que sua página (ou aplicação) possua.</h1>
+                    <h1>O JavaScript (JS) - é uma linguagem de programação utilizada 
+                    principalmente em páginas web.</h1>
                 </div>
-                <div className='card1-S'>
+                <div className='cardSkills'>
                     <img src={Frame} className='image' alt='html'/>
-                    <h1>React. js é uma biblioteca JavaScript open source, utilizada
+                    <h1>React js - é uma biblioteca JavaScript open source, utilizada
                     para construção de interfaces, nomeadas para aplicações de 
-                    página única. Rápida, escalável e simples, pode ser usada com 
-                    outras bibliotecas ou frameworks de JavaScript. </h1>
+                    página única.</h1>
                 </div>
             </div>
-            <div className='footer-S'>
+            <div className='footerSkills'>
                 <h3>Eduardo Silva {' '}</h3>
             </div>
         </div>

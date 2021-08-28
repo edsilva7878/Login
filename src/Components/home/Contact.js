@@ -1,10 +1,12 @@
 import React from 'react'
 import {useHistory} from 'react-router-dom'
 import '../home/Contact.css'
+import GitHub from './images/git.png'
 import Email from './images/email.png'
 import Linkedin from './images/linkedin.png'
 import Whats from './images/whats.png'
 import Fone from './images/fone.png'
+import FundoContact from './images/contact.jpg'
 
 export default function Contact() {
     const history = useHistory()
@@ -17,9 +19,6 @@ export default function Contact() {
         return history.push('/skills')
     }
 
-    function contact(){
-        return history.push('/contact')
-    }
     
     function home(){
         return history.push('/')
@@ -30,13 +29,15 @@ export default function Contact() {
     }
     
     return (
-        <div className='wrapper-C'>
+        <>
+            <img src={FundoContact} className='fundoContact' alt='photoContact'/>
+            <div className='wrapper-C'>
             <div className='menu-C'>
-                <button className='btn-XC' onClick={() => contact()}>CONTATO</button>
-                <button className='btn-S' onClick={() => partners()}>PARCEIROS</button>
-                <button className='btn-C' onClick={() => home()}>PAGINA INICIAL</button>
-                <button className='btn-C' onClick={() => about()}>SOBRE</button>
-                <button className='btn-C' onClick={() => skills()}>CONHECIMENTOS</button>
+                <p className='titleContact'>CONTATO</p>
+                <button className='btnContact' onClick={() => partners()}>PARCEIROS</button>
+                <button className='btnContact' onClick={() => home()}>PAGINA INICIAL</button>
+                <button className='btnContact' onClick={() => about()}>SOBRE</button>
+                <button className='btnContact' onClick={() => skills()}>CONHECIMENTOS</button>
             </div>
             <div className='content-C'>
                 <form className="form">
@@ -57,26 +58,32 @@ export default function Contact() {
                 <div className='card-C'></div>
             </div>
             <div className='footer1-C'>
-                <div className='icones'>
-                    <img src={Email} alt='photo1'/>
-                    <h3>edsilva7878@gmail.com</h3>
+            <div className='icones'>
+                    <img src={GitHub} alt='photo1'/>
+                    <h3>edsilva7878/</h3>
                 </div>
                 <div className='icones'>
                     <img src={Linkedin} alt='photo2'/>
                     <h3>in/edsilva7878</h3>
                 </div>
+                <div className='icones'>
+                    <img src={Email} alt='photo3'/>
+                    <h3>edsilva7878@gmail.com</h3>
+                </div>
+               
                 <div className='icones' >
-                    <img src={Whats} alt='photo3'/>
+                    <img src={Whats} alt='photo4'/>
                     <h3>55 (11) 99250-6743</h3>
                 </div>
                 <div className='icones' >
-                    <img src={Fone} alt='photo4'/>
+                    <img src={Fone} alt='photo5'/>
                     <h3>55 (11) 2935-3972</h3>
                 </div>
             </div>
             <div className='footer2-C' >
                 <h3>Eduardo Silva {' '}</h3>
             </div>
-        </div>
+            </div>
+        </>
     )
 }

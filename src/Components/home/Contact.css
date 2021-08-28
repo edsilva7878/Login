@@ -1,9 +1,13 @@
-    *{
-    margin: 0vh;
-    padding: 0vh;
+    .fundoContact{
+        position: fixed;
+        z-index: 0;
+        border-radius: 0;
+        margin: 0vh;
+        padding: 0vh;
     }
     .wrapper-C{
-    background-image: url('./images/contact.jpg');
+        position: relative;
+        z-index: 1;
     }
     .menu-C{
     background-color: transparent;
@@ -15,25 +19,42 @@
     font-family: Perpetua Titling MT;
     color: white;
     }
-    .btn-C{
-    width: 30vh;
-    height: 10vh;
-    border: solid;
-    border-width: 0.3vh;
-    border-color: white;
-    background-color:transparent;
-    color: white;
-    font-size: 15pt;
-    font-family: Perpetua Titling MT;
+    .titleContact{
+        width: 30vw;
+        height: 10vh;
+        color: rgb(255, 255, 255);
+        font-size: 40pt;
+        font-family: Perpetua Titling MT;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .btn-XC{
-    width: 70vh;
-    height: 20vh;
-    background-color: transparent;
-    border-color: transparent;
-    color: white;
-    font-size: 50pt;
-    font-family: Perpetua Titling MT;
+
+    .btnContact{
+        width: 30vh;
+        height: 10vh;
+        border: solid;
+        border-width: 0.3vh;
+        border-color: white;
+        background-color:transparent;
+        color: white;
+        font-size: 15pt;
+        font-family: Perpetua Titling MT;
+        }
+        .btnContact:hover{
+            background-color: rgba(255, 255, 255, 0.459);
+            border-color: transparent;
+            color: white;
+            }
+    .titleContact{
+        width: 30vw;
+        height: 10vh;
+        color: rgb(255, 255, 255);
+        font-size: 40pt;
+        font-family: Perpetua Titling MT;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .btn-C:hover{
     background-color:rgba(255, 255, 255, 0.288);
@@ -64,7 +85,7 @@
     background: transparent;
     text-align: center;
     margin-left: 11.5Vh;
-    box-shadow: 1px 1px 10px BLACK;
+    box-shadow: 0px 0px 5px 0px BLACK;
     }
     .name{
     background-color:  rgba(255, 255, 255, 0.315);
@@ -129,13 +150,13 @@
     }
     .icones{
     background-color: rgba(255, 255, 255, 0.267);
-    width: 45vh;
+    width: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 10pt;
     border-radius: 5px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0px 0px 10px 0px black;
     }
     .footer1-C{
     background-color:transparent;

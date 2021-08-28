@@ -31,7 +31,7 @@ export default function Contact() {
     return (
         <>
             <img src={FundoContact} className='fundoContact' alt='photoContact'/>
-            <div className='wrapper-C'>
+            <div className='wrapperContact'>
             <div className='menu-C'>
                 <p className='titleContact'>CONTATO</p>
                 <button className='btnContact' onClick={() => home()}>PAGINA INICIAL</button>

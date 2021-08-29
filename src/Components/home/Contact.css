@@ -164,7 +164,6 @@ z-index: 1;
     width: 12vw;
     height: 20vh;
     background-color: transparent;
-    box-shadow: 0px 0px 10px 1px black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -174,9 +173,7 @@ z-index: 1;
     font-family: Agency FB;
     padding-top: 5px;
     }
-    .icones:hover{
-    background-color: rgba(255, 255, 255, 0.295);
-    }
+  
 
     .footer-C{
         background-color:transparent;

@@ -36,15 +36,16 @@ export default function About() {
 
             </div>
             <div className='contentAbout'>
-                <div className='cardAbout'>
+                <div className='cardAboutBook'>
                     <img src={Book} alt='photoBook'/><br/>
-                    <h1>Paulistano, casado, 43 anos...
-                    Pai de 03 filhos e apaixonado pela família,
-                    música e tecnologia... Estudante de Porgramação, 
-                    trabalha Home Office como Analista Técnico na Empresa 
-                    Claro S/A. Iniciou carreira como técnico de banda larga, 
-                    e hoje, dedica horas de estudos para o React JS, buscando
-                    oportunidade na área, como Desenvolvedor de Sistemas.</h1>
+                </div>
+                <div className='cardAboutText'>
+                    <h1>Paulistano, casado, 43 anos e pai de 03 filhos...
+                    Apaixonado pela família, música e tecnologia... 
+                    Estudante de Porgramação, trabalha home office como Analista Técnico
+                    na empresa Claro S/A... Iniciou carreira como técnico de banda larga, 
+                    e hoje, dedica horas de estudos para o React JS, aprimorando conhecimento
+                    e buscando oportunidade na área, para atuar como Desenvolvedor de Sistemas.</h1>
                 </div>
             </div>
             <div className='footerAbout'>

@@ -1,4 +1,5 @@
 .fundoPartners{
+   
     margin: 0;
     padding: 0;
     border-radius: 0;
@@ -20,6 +21,9 @@ align-items: center;
 font-size: 70pt;
 font-family: Perpetua Titling MT;
 color: white;
+}
+a{
+    text-decoration: none;
 }
 .btn-P{
 width: 30vh;
@@ -79,6 +83,8 @@ font-size: 8pt;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+text-decoration: none;
+
 }
 .titleP{
 background-color: rgba(255, 255, 255, 0.486);

@@ -10,7 +10,7 @@ export default function Partners() {
 
     const history = useHistory()
 
-    function about(){
+   /*  function about(){
         return history.push('/about')
     }
 
@@ -24,19 +24,19 @@ export default function Partners() {
     
     function home(){
         return history.push('/')
-    }
+    } */
     
     return (
         <>
             <img src={FundoPartners} className='fundoPartners' alt='fpartners' />
             <div className='wrapperPartners'>
-            <div className='menu-P'>
+           {/*  <div className='menu-P'>
                 <p className='titlePartners'>PARCEIROS</p>
                 <button className='btn-P' onClick={() => home()}>PAGINA INICIAL</button>
                 <button className='btn-P' onClick={() => about()}>SOBRE</button>
                 <button className='btn-P' onClick={() => skills()}>CONHECIMENTOS</button>
                 <button className='btn-P' onClick={() => contact()}>CONTATO</button>
-            </div>
+            </div> */}
             <div className='content-P'>
                 <h1 className='cardP'>
                    <img src={Ale} alt='photo1'/>
@@ -58,9 +58,9 @@ export default function Partners() {
                 </h1>
                 
             </div>
-            <div className='footer-P'>
+           {/*  <div className='footer-P'>
                 <h3>Eduardo Silva</h3>
-            </div>
+            </div> */}
             </div>
         </>
     )

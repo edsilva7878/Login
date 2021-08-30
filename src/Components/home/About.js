@@ -7,7 +7,7 @@ import FundoAbout from './images/about.jpg'
 export default function About() {
     const history = useHistory()
 
-    function home(){
+   /*  function home(){
         return history.push('/')
     }
 
@@ -21,20 +21,20 @@ export default function About() {
 
     function partners(){
         return history.push('/partners')
-    }
+    } */
     
     return (
         <>
             <img src={FundoAbout} className='fundoAbout' alt='photoAbout'/>
             <div className='wrapperAbout' >
-            <div className='menuAbout'>
-                <p className='titleAbout'>SOBRE</p>
+            {/* <div className='menuAbout'> */}
+                {/* <p className='titleAbout'>SOBRE</p>
                 <button className='btnAbout' onClick={() => skills()}>CONHECIMENTOS</button>
                 <button className='btnAbout' onClick={() => contact()}>CONTATO</button>
                 <button className='btnAbout' onClick={() => partners()}>PARCEIROS</button>
                 <button className='btnAbout' onClick={() => home()}>PAGINA INICIAL</button>
 
-            </div>
+            </div> */}
             <div className='contentAbout'>
                 <div className='cardAboutBook'>
                     <img src={Book} alt='photoBook'/><br/>
@@ -48,9 +48,9 @@ export default function About() {
                     e buscando oportunidade na área, para atuar como Desenvolvedor de Sistemas.</h1>
                 </div>
             </div>
-            <div className='footerAbout'>
+            {/* <div className='footerAbout'>
                 <h3>Eduardo Silva</h3>
-            </div>
+            </div> */}
         </div>
         </>
     )

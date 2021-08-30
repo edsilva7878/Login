@@ -11,7 +11,7 @@ import FundoContact from './images/contact.jpg'
 export default function Contact() {
     const history = useHistory()
 
-    function about(){
+   /*  function about(){
         return history.push('/about')
     }
 
@@ -27,18 +27,18 @@ export default function Contact() {
     function partners(){
         return history.push('/partners')
     }
-    
+     */
     return (
         <>
             <img src={FundoContact} className='fundoContact' alt='photoContact'/>
             <div className='wrapperContact'>
-                <div className='menu-C'>
+               {/*  <div className='menu-C'>
                     <p className='titleContact'>CONTATO</p>
                     <button className='btnContact' onClick={() => partners()}>PARCEIROS</button>
                     <button className='btnContact' onClick={() => home()}>PAGINA INICIAL</button>
                     <button className='btnContact' onClick={() => about()}>SOBRE</button>
                     <button className='btnContact' onClick={() => skills()}>CONHECIMENTOS</button>
-                </div>
+                </div> */}
                 <div className='content-C'>
                     <form className="form">
                         <div className="inputName">
@@ -79,9 +79,9 @@ export default function Contact() {
                         <h3>55 (11) 2935-3972</h3>
                     </div>
                 </div>
-                <div className='footer-C' >
+               {/*  <div className='footer-C' >
                     <h3>Eduardo Silva {' '}</h3>
-                </div>
+                </div> */}
             </div>
         </>
     )

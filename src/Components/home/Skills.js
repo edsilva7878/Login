@@ -10,7 +10,7 @@ import FundoSkills from './images/skills.jpg'
 export default function Skills() {
     const history = useHistory()
 
-    function home(){
+   /*  function home(){
         return history.push('/')
     }
 
@@ -24,19 +24,19 @@ export default function Skills() {
 
     function partners(){
         return history.push('/partners')
-    }
+    } */
     
     return (
         <>
         <img src={FundoSkills} className='fundoSkills' alt='photoSkills'/>
         <div className='wrapperSkills'>
-            <div className='menuSkills'>
+           {/*  <div className='menuSkills'>
                 <p className='titleSkills'>CONHECIMENTOS</p>
                 <button className='btnSkills' onClick={() => contact()}>CONTATO</button>
                 <button className='btnSkills' onClick={() => partners()}>PARCEIROS</button>
                 <button className='btnSkills' onClick={() => home()}>PAGINA INICIAL</button>
                 <button className='btnSkills' onClick={() => about()}>SOBRE</button>
-            </div>
+            </div> */}
             <div className='contentSkills'>
                 <div className='cardSkills'>
                     <img src={HTML} className='image' alt='html'/>
@@ -62,9 +62,9 @@ export default function Skills() {
                     página única.</h1>
                 </div>
             </div>
-            <div className='footerSkills'>
+            {/* <div className='footerSkills'>
                 <h3>Eduardo Silva {' '}</h3>
-            </div>
+            </div> */}
         </div>
         </>
     )

@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, BrowserRouter } from "react-router-dom";
-import Home from '../home'
-import Skills from './skills'
-import About from './about'
-import Contact from './contact'
+import Home from './pageHome/index'
+import Skills from './pageskills/index'
+import About from './pageAbout/index'
+import Contact from './pageContact/index'
 
 export default function Routes(){
     return(

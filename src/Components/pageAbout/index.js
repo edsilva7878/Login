@@ -3,15 +3,15 @@ import Menu from '../menu'
 import Content from '../content'
 import Footer from '../footer'
 import './styles.css'
-import FundoHome from '../images/edu.png'
+import FundoAbout from '../images/about.jpg'
 
 export default function Home(){
     return(
         <>
-                <img src={FundoHome} className='fundoHome' alt='fundoHome'/>
-                <Menu/>
-                <Content/>
-                <Footer/>
+                <img src={FundoAbout} className='fundoAbout' alt='fundoAbout'/>
+                <Menu />
+                <Content />
+                <Footer />
         </>
     )
 }

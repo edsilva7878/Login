@@ -4,6 +4,10 @@ import './styles.css'
 
 export default function Menu(){
   const history = useHistory()
+ 
+  function home(){
+    return history.push('/')
+}
 
    function about(){
         return history.push('/about')
@@ -24,7 +28,7 @@ export default function Menu(){
     return(
         <>
             <div className='menuHome'>
-            <p className='titleHome'>PAGINA INICIAL</p>
+                <button className='btnHome' onClick={() => home()}>HOME</button>
                 <button className='btnHome' onClick={() => about()}>SOBRE</button>
                 <button className='btnHome' onClick={() => skills()}>CONHECIMENTOS</button>
                 <button className='btnHome' onClick={() => contact()}>CONTATO</button>

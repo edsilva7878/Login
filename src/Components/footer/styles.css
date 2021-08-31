@@ -1,0 +1,14 @@
+.footerHome{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 5vh;
+    background-color:transparent;
+    font-size: 20pt;
+    font-family: Mistral;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2vh;
+    }

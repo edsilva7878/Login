@@ -1,14 +1,14 @@
-
 .menuHome{
-position: absolute;
+position: relative;
 z-index: 1;
+width: 100vw;
 height: 20vh;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 }
 .btnHome{
-    width: 30vh;
+width: 30vh;
 height: 10vh;
 border: solid;
 border-width: 0.3vh;
@@ -24,7 +24,6 @@ border-color: transparent;
 }
 .titleHome{
 width: 30vw;
-height: 10vh;
 color: rgb(255, 255, 255);
 font-size: 40pt;
 font-family: Perpetua Titling MT;

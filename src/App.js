@@ -1,15 +1,10 @@
-import Web from "./Components/home/Web"
-import Menu from './Components/menu'
+import React from "react"
+import Routes from './Components/pages/routes'
 
 export default function App() {
   return (
-
     <div className="App">
-      <Menu/>
-      <Web/>
-      <div className='footerHome'>
-        <h3>Eduardo Silva</h3>
-      </div>
+      <Routes/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Menu from '../menu'
 import Content from '../content'
 import Footer from '../footer'
 import './styles.css'
-import FundoHome from '../images/edu.png'
+import FundoHome from '../../images/edu.png'
 
 export default function Home(){
     return(

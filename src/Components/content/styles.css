@@ -1,12 +1,6 @@
-.marcaHome{
+.content{
     position: relative;
-    z-index: 1;
     width: 100vw;
-    height: 45vh;
-    font-size: 150pt;
-    font-family: Perpetua Titling MT;
-    color:rgba(0, 0, 0, 0.322);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    }
+    height: 77vh;
+    z-index: 1;
+}

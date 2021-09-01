@@ -16,6 +16,11 @@ border-color: white;
 color: white;
 font-size: 15pt;
 font-family: Perpetua Titling MT;
+display: flex;
+align-items: center;
+justify-content:center;
+
+text-decoration: none;
 }
 .btnHome:hover{
 background-color: rgba(255, 255, 255, 0.288);
@@ -30,4 +35,103 @@ font-family: Perpetua Titling MT;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.cardMenu{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    background-color: rgba(137, 138, 137, 0.3);
+    top: -620px;
+  }
+  .cardMenu-active{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    background-color: rgba(137, 138, 137, 0.3);
+    
+    animation: cardDrop 1s forwards;
+    
+  }
+
+  @keyframes cardDrop{
+      from{
+          top:-620px;
+      }
+      to{
+          top:80px
+      }
+  }
+  .btnCard{
+    height: 45px;
+    width: 110px;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    font-family: Perpetua Titling MT;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+   
+  }
+  
+  .hamburger{
+    width:40px;
+    height:40px;
+    position: relative;
+    align-self: center;
+    cursor: pointer;
+    display: none;
+    margin-right:40px;
+    color: #FFF;
+}
+.closeMenu{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+@media only screen and (max-width: 1100px){
+    .btnHome{
+        height:7vh;
+        width:12vw;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .btnHome{
+        display:none
+    }
+    .hamburger{
+        display: block;
+    }
+    .menuHome{
+        justify-content: flex-end;
+    }
+
 }

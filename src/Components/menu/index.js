@@ -1,39 +1,35 @@
-import React from 'react'
-import {useHistory} from 'react-router-dom'
+import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
 import './styles.css'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {MdClose} from 'react-icons/md'
+
 
 export default function Menu(){
-  const history = useHistory()
- 
-  function home(){
-    return history.push('/')
-}
+    const [activeMenu, setActiveMenu] = useState(false)
 
-   function about(){
-        return history.push('/about')
-    }
+    console.log(activeMenu)
+    
 
-    function skills(){
-        return history.push('/skills')
-    }
-
-    function contact(){
-        return history.push('/contact')
-    }
-
-    function partners(){
-        return history.push('/partners')
-    }
 
     return(
-        <>
-            <div className='menuHome'>
-                <button className='btnHome' onClick={() => home()}>HOME</button>
-                <button className='btnHome' onClick={() => about()}>SOBRE</button>
-                <button className='btnHome' onClick={() => skills()}>CONHECIMENTOS</button>
-                <button className='btnHome' onClick={() => contact()}>CONTATO</button>
-                <button className='btnHome' onClick={() => partners()}>PARCEIROS</button>
+        <div className="wrapper">
+            <nav className='menuHome'>
+                <Link to={''} className='btnHome' >HOME</Link>
+                <Link to={'/about'} className='btnHome' >SOBRE</Link>
+                <Link to={'/skills'} className='btnHome'>CONHECIMENTOS</Link>
+                <Link to={'/contact'} className='btnHome' >CONTATO</Link>
+                <Link to={'/partners'} className='btnHome' >PARCEIROS</Link>
+                <GiHamburgerMenu className='hamburger' onClick={()=>setActiveMenu(!activeMenu)} />
+            </nav>
+            <div className={`cardMenu${activeMenu ? '-active' : ''}`}>
+                <MdClose style={{color: 'white'}} className='closeMenu' onClick={() => setActiveMenu(false)}/>
+                <Link to={'/'} className='btnCard' >HOME</Link>
+                <Link to={'/about'} className='btnCard' >SOBRE</Link>
+                <Link to={'/skills'} className='btnCard' >CONHECIMENTOS</Link>
+                <Link to={'/contact'} className='btnCard' >CONTATO</Link>
+                <Link to={'/partners'} className='btnCard' >PARCEIROS</Link>
             </div>
-        </>
+        </div>
     )
 }

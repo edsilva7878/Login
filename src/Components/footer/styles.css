@@ -1,7 +1,7 @@
 .footerHome{
-    position: fixed;
+    position: absolute;
     z-index: 0;
-    width: 100vw;
+    width: 200px;
     height: 5vh;
     background-color:transparent;
     font-size: 20pt;
@@ -10,4 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    bottom: 0;
+    right: 0;
     }

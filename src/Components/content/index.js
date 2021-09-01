@@ -4,7 +4,7 @@ import './styles.css'
 export default function Content(){
     return(
         <>
-            <h1 className='marcaHome'>DEVELOPER</h1>
+            {/* <h1 className='marcaHome'>DEVELOPER</h1> */}
         </>
     )
 }
